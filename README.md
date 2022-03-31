@@ -11,4 +11,4 @@ This personal website is built with `hugo` and `nix`.
 ## Build
 
 1. Run `nix develop`
-2. Run `genericBuild` to generate pages in `public/`
+2. Run `genericBuild` to generate pages in `docs/`
