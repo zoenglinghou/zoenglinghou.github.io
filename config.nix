@@ -7,13 +7,13 @@
   params = {
     # dir name of your main content (default is `content/posts`).
     # the list of set content will show up on your index page (baseurl).
-    contentTypeName = "posts";
+    contentTypeName = "content";
 
     # ["orange", "blue", "red", "green", "pink"]
     themeColor = "blue";
 
     # if you set this to 0, only submenu trigger will be visible
-    showMenuItems = 2;
+    showMenuItems = 0;
 
     # show selector to switch language
     showLanguageSelector = false;
@@ -75,17 +75,19 @@
       };
 
       menu.main = [
-        {
-          identifier = "about";
-          name = "About";
-          url = "/about";
-        }
-        {
-          identifier = "showcase";
-          name = "Showcase";
-          url = "/showcase";
-        }
+        # {
+        #   identifier = "about";
+        #   name = "About";
+        #   url = "/about";
+        # }
+        # {
+        #   identifier = "showcase";
+        #   name = "Showcase";
+        #   url = "/showcase";
+        # }
       ];
     };
   };
+
+  markup.goldmark.renderer = { unsafe = true; };
 }

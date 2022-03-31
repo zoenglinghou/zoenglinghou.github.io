@@ -23,25 +23,8 @@
       in rec {
         devShell = import ./shell.nix {
           inherit pkgs;
+          inherit config;
           inherit hugo-theme-terminal;
-        };
-        defaultPackage = packages.name;
-        packages.name = pkgs.stdenvNoCC.mkDerivation rec {
-          inherit name;
-          src = [ self config ];
-          buildInputs = with pkgs; [ coreutils hugo hugo-theme-terminal ];
-          phases = [ "buildPhase" "installPhase" ];
-          buildPhase = ''
-            export PATH="${pkgs.lib.makeBinPath buildInputs}";
-            cp ${config.outPath} ./config.toml
-            mkdir -p ./themes
-            cp -r ${self.inputs.hugo-theme-terminal.outPath} ./themes/terminal
-            hugo
-          '';
-          installPhase = ''
-            mkdir $out
-            cp -r * $out/
-          '';
         };
       });
 }
