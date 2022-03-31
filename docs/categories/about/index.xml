@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about on Zoeng Linghou</title>
+    <link>https://zoenglinghou.github.io/categories/about/</link>
+    <description>Recent content in about on Zoeng Linghou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://zoenglinghou.github.io/categories/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://zoenglinghou.github.io/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zoenglinghou.github.io/</guid>
+      <description>Hello There My name is Linghao Zhang. I am a Master Student at ETH Zürich studying Robotics. My core competency is in Robotics control. I have worked with ANYmal and ALMA in ETH&amp;rsquo;s Robotic Systems Lab, with a focus on MPC an QP Controller. My main development language/framework is C++ and ROS.
+Hobbies
+As a self-taught and self-hosting Linux admin, I manage some Linux boxes and VMs, knowing my way around DevOps tools like Ansible and nix.</description>
+      <content>&lt;p&gt;&lt;img src=&#34;https://zoenglinghou.github.io/img/avatar.jpg&#34; alt=&#34;Avatar&#34; class=&#34;center&#34;
+style=&#34;
+border: 12px solid var(--accent);
+border-radius: 8px;
+width: 50%;
+max-width: 300px;
+min-width: 250px;
+&#34;/&gt;&lt;/p&gt;
+&lt;h1 id=&#34;hello-there&#34;&gt;Hello There&lt;/h1&gt;
+&lt;p&gt;My name is Linghao Zhang. I am a Master Student at ETH Zürich studying Robotics. My core competency is in Robotics control. I have worked with ANYmal and &lt;a href=&#34;https://rsl.ethz.ch/robots-media/alma.html&#34;&gt;ALMA&lt;/a&gt; in ETH&amp;rsquo;s &lt;a href=&#34;https://rsl.ethz.ch&#34;&gt;Robotic Systems Lab&lt;/a&gt;, with a focus on MPC an QP Controller. My main development language/framework is &lt;code&gt;C++&lt;/code&gt; and &lt;code&gt;ROS&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hobbies&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As a self-taught and self-hosting Linux admin, I manage some Linux boxes and VMs, knowing my way around DevOps tools like &lt;code&gt;Ansible&lt;/code&gt; and &lt;code&gt;nix&lt;/code&gt;. This website is built with Hugo and &lt;code&gt;nix&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contact&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:linghao.zhang@protonmail.com&#34;&gt;Email&lt;/a&gt;
+&lt;a href=&#34;https://github.com/zoenglinghou&#34;&gt;GitHub&lt;/a&gt;
+&lt;a href=&#34;https://codeberg.org/zoenglinghou&#34;&gt;Codeberg&lt;/a&gt;
+&lt;a href=&#34;https://www.linkedin.com/in/linghao-zhang&#34;&gt;LinkedIn&lt;/a&gt;
+&lt;a href=&#34;https://m.cmx.im/web/accounts/30874&#34;&gt;Mastodon&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

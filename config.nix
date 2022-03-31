@@ -3,6 +3,7 @@
   languageCode = "en-us";
   theme = "terminal";
   paginate = 5;
+  publishDir = "docs";
 
   params = {
     # dir name of your main content (default is `content/posts`).

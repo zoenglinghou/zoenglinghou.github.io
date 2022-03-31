@@ -1,10 +1,11 @@
 { pkgs, config, hugo-theme-terminal, ... }:
 pkgs.mkShell {
-  buildInputs = [ pkgs.hugo hugo-theme-terminal ];
+  buildInputs = [ pkgs.hugo pkgs.rsync hugo-theme-terminal ];
   srcs = [ config ];
   shellHook = ''
+    mkdir -p themes
     ln -snf ${config.outPath} config.toml
-    ln -snf "${hugo-theme-terminal}" themes/terminal
+    rsync -ahu ${hugo-theme-terminal}/* themes/terminal
   '';
   buildPhase = ''
     hugo -D
