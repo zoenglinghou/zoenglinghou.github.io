@@ -1,0 +1,43 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/hugo,linux,direnv
+# Edit at https://www.toptal.com/developers/gitignore?templates=hugo,linux,direnv
+
+### direnv ###
+.direnv
+.envrc
+
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# End of https://www.toptal.com/developers/gitignore/api/hugo,linux,direnv
+
+### Nix ###
+config.toml
+results

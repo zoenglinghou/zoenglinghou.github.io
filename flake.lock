@@ -1,0 +1,87 @@
+{
+  "nodes": {
+    "hugo-theme-terminal": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1648589810,
+        "narHash": "sha256-eCsdEwFmFGJoiVBY+nJR/DpEdNDtAKkXb9JHW9eToj0=",
+        "owner": "panr",
+        "repo": "hugo-theme-terminal",
+        "rev": "e0213b0d4eaa399770a11be1faff89529b2ced0b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "panr",
+        "repo": "hugo-theme-terminal",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1648632716,
+        "narHash": "sha256-kCmnDeiaMsdhfnNKjxdOzwRh2H6eQb8yWAL+nNabC/Y=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "710fed5a2483f945b14f4a58af2cd3676b42d8c8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": [
+          "wafer",
+          "utils"
+        ],
+        "hugo-theme-terminal": "hugo-theme-terminal",
+        "nixpkgs": [
+          "wafer",
+          "nixpkgs"
+        ],
+        "wafer": "wafer"
+      }
+    },
+    "utils": {
+      "locked": {
+        "lastModified": 1648297722,
+        "narHash": "sha256-W+qlPsiZd8F3XkzXOzAoR+mpFqzm3ekQkJNa+PIh1BQ=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "0f8662f1319ad6abf89b3380dd2722369fc51ade",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "wafer": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "utils": "utils"
+      },
+      "locked": {
+        "lastModified": 1648721457,
+        "narHash": "sha256-MerijJRtGoHsyBUze6Pd8du7kkHGGNqB0/BWmZI7a3s=",
+        "owner": "zoenglinghou",
+        "repo": "wafer",
+        "rev": "50f484c0fd37521ef010b77dd919949d3cd7d127",
+        "type": "github"
+      },
+      "original": {
+        "owner": "zoenglinghou",
+        "ref": "main",
+        "repo": "wafer",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
