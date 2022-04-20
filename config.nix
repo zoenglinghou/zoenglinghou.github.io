@@ -71,7 +71,7 @@
       missingContentMessage = "Page not found...";
       missingBackButtonLabel = "Back to home page";
       params.logo = {
-        logoText = "Terminal";
+        logoText = "Zoeng Linghou";
         logoHomeLink = "/";
       };
 
