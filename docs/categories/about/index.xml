@@ -32,7 +32,7 @@ min-width: 250px;
 &lt;a href=&#34;https://github.com/zoenglinghou&#34;&gt;GitHub&lt;/a&gt;
 &lt;a href=&#34;https://codeberg.org/zoenglinghou&#34;&gt;Codeberg&lt;/a&gt;
 &lt;a href=&#34;https://www.linkedin.com/in/linghao-zhang&#34;&gt;LinkedIn&lt;/a&gt;
-&lt;a href=&#34;https://m.cmx.im/web/accounts/30874&#34;&gt;Mastodon&lt;/a&gt;&lt;/p&gt;
+&lt;a rel=&#34;me&#34; href=&#34;https://m.cmx.im/@carlosevo&#34;&gt;Mastodon&lt;/a&gt;&lt;/p&gt;
 </content>
     </item>
     

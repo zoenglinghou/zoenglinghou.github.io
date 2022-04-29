@@ -6,7 +6,7 @@ This personal website is built with `hugo` and `nix`.
 1. Install [`nix`](https://nixos.org)
 2. Install [`direnv` with `nix`](https://github.com/direnv/direnv)
 3. Run `direnv allow` to allow loading `.envrc`
-5. Run `hugo server` to start live server
+4. Run `hugo server` to start live server
 
 ## Build
 

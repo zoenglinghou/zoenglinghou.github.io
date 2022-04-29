@@ -31,4 +31,4 @@ As a self-taught and self-hosting Linux admin, I manage some Linux boxes and VMs
 [GitHub](https://github.com/zoenglinghou)
 [Codeberg](https://codeberg.org/zoenglinghou)
 [LinkedIn](https://www.linkedin.com/in/linghao-zhang)
-[Mastodon](https://m.cmx.im/web/accounts/30874)
+<a rel="me" href="https://m.cmx.im/@carlosevo">Mastodon</a>
