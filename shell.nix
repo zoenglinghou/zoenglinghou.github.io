@@ -1,7 +1,7 @@
 { pkgs, config, hugo-theme-terminal, ... }:
 pkgs.mkShell {
-  buildInputs = [ pkgs.hugo pkgs.rsync hugo-theme-terminal ];
-  srcs = [ config ];
+  buildInputs = [ pkgs.hugo pkgs.rsync ];
+  srcs = [ config hugo-theme-terminal ];
   shellHook = ''
     mkdir -p themes
     ln -snf ${config.outPath} config.toml
