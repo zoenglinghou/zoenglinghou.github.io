@@ -4,8 +4,8 @@
   inputs = {
     wafer.url = "github:zoenglinghou/wafer?ref=main";
 
-    flake-utils.follows = "wafer/utils";
-    nixpkgs.follows = "wafer/nixpkgs";
+    flake-utils.url = "github:numtide/flake-utils";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-22.05";
 
     hugo-theme-terminal = {
       url = "github:panr/hugo-theme-terminal";
