@@ -2,18 +2,20 @@
   description = "My Personal Website built on Hugo, managed by Nix";
 
   inputs = {
-    wafer.url = "github:zoenglinghou/wafer?ref=main";
-
     flake-utils.url = "github:numtide/flake-utils";
     nixpkgs.url = "github:nixos/nixpkgs/nixos-22.05";
 
-    hugo-theme-terminal = {
-      url = "github:panr/hugo-theme-terminal";
+    # hugo-theme-terminal = {
+    #   url = "github:panr/hugo-theme-terminal";
+    #   flake = false;
+    # };
+    hugo-theme-coder = {
+      url = "github:luizdepra/hugo-coder";
       flake = false;
     };
   };
 
-  outputs = { self, nixpkgs, flake-utils, hugo-theme-terminal, ... }:
+  outputs = { self, nixpkgs, flake-utils, hugo-theme-coder, ... }:
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = import nixpkgs { inherit system; };
@@ -24,7 +26,7 @@
         devShell = import ./shell.nix {
           inherit pkgs;
           inherit config;
-          inherit hugo-theme-terminal;
+          inherit hugo-theme-coder;
         };
       });
 }
