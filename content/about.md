@@ -10,22 +10,24 @@ tags:
 
 <img src="/img/avatar.jpg" alt="Avatar" class="center"
 style="
-    border: 12px solid var(--accent);
-    border-radius: 8px;
     width: 50%;
-    max-width: 300px;
-    min-width: 250px;
+    max-width: 200px;
+    min-width: 150px;
 "/> 
 
-# Hello There
+# Robotics Engineer & DevOps
 
-My name is Linghao Zhang. I am a Master Student at ETH Zürich studying Robotics. My core competency is in Robotics control. I have worked with ANYmal and [ALMA](https://rsl.ethz.ch/robots-media/alma.html) in ETH's [Robotic Systems Lab](https://rsl.ethz.ch), with a focus on MPC an QP Controller. My main development language/framework is `C++` and `ROS`.
+There are many robotics engineers, but few are Linux DevOps. I am **both**.
 
-## Hobbies
+No better word describes my passion to building robots. I studied in a robotics master program and develop low- and high-level robot controllers. I now work as an engineer in a robotics startup.
 
-As a self-taught and self-hosting Linux admin, I manage some Linux boxes and VMs, knowing my way around DevOps tools like `Ansible` and `nix`. This website is built with Hugo and `nix`.
+Linux DevOps was a by-product from taking control of my digital life. It started with self-hosting [Pleroma](https://pleroma.social), a decentralized and open source social media platform. It led me to the FOSS communities and aspired me to be my own "cloud" provider, one software at a time. To this date, I manage half a dozen services with [Ansible](https://www.ansible.com) and virtual machines.
 
-## Contact
+My hobby crossed path with my profession when I automated the development workflow for our robots with Ansible. Gone are the clumsy shell scripts, and comes the reproducible Ansible playbooks. [Grafana](https://grafana.com) also finds its way into our fleet management, besides my home dashboard.
+
+I would not be happy without being the mind behind our robots or the superintendent of the robotic fleet.
+
+# Contact
 
 - [Email](mailto:linghao.zhang@protonmail.com)
 - <a rel="me" href="https://m.cmx.im/@carlosevo">Mastodon</a>

@@ -12,8 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zoenglinghou.github.io/about/</guid>
-      <description>Hello There  Link to heading   My name is Linghao Zhang. I am a Master Student at ETH Zürich studying Robotics. My core competency is in Robotics control. I have worked with ANYmal and ALMA in ETH&amp;rsquo;s Robotic Systems Lab, with a focus on MPC an QP Controller. My main development language/framework is C++ and ROS.
-Hobbies  Link to heading   As a self-taught and self-hosting Linux admin, I manage some Linux boxes and VMs, knowing my way around DevOps tools like Ansible and nix.</description>
+      <description>The Robotics Engineer &amp;amp; DevOps  Link to heading   There are many robotics engineers, but few are Linux DevOps. I am both.
+No better word describes my passion to building robots. I studied in a robotics master program and develop low- and high-level robot controllers. I now work as an engineer in a robotics startup.
+Linux DevOps was a by-product from taking control of my digital life. It started with self-hosting Pleroma, a decentralized and open source social media platform.</description>
     </item>
     
   </channel>
